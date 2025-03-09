@@ -29,13 +29,72 @@
             Preencha os dados abaixo para matricular seu filho na escola de
             educação infantil Estrelas do Amanhã.
           </p>
+
+          <fieldset class="child-information">
+            <legend>Informações da criança</legend>
+
+            <div class="input-wrapper">
+              <label for="name"> Nome Completo</label>
+              <input
+                id="name"
+                type="text"
+                name="name"
+                placeholder="Qual  o nome da criança"
+              />
+            </div>
+
+            <div class="input-wrapper">
+              <label for="birth">Data de nascimento</label>
+              <input
+                id="birth"
+                type="date"
+                name="birth"
+                id="birth"
+                lang="pt-Br"
+              />
+            </div>
+
+            <div class="select-wrapper">
+              <label for="gender">Sexo</label>
+              <select name="gender" id="gender">
+                <option value="female">Feminino</option>
+                <option value="male">Masculino</option>
+                <option value="na">Prefiro não responder</option>
+              </select>
+            </div>
+
+            <div class="textarea-wrapper">
+              <label for="medical-info">Informações médicas</label>
+              <textarea
+                name="medical-info"
+                id="medical-info"
+                placeholder="A criança possúi alguma condição médica que a
+                 escola deve estar ciente? , (se sim especifique)"
+                rows="10"
+                cols="30"
+              ></textarea>
+            </div>
+
+            <div class="droparea-wrapper">
+              <label for="birthFile">Certidão de nascimento</label>
+              <input type="file" id="birthFile" name="birthFile" />
+              <img src="assets/icons/cloud-upload.svg" alt="Uma nuvem cinza" />
+              <p>
+                Clique aqui para <br />
+                selecionar arquivos
+              </p>
+            </div>
+          </fieldset>
         </div>
       </main>
 
       <aside>
         <div class="aside-contaiiner">
           <header>
-            <img src="./assets/icons/logo.svg" alt="" />
+            <img
+              src="./assets/icons/logo.svg"
+              alt="Logo marca escrito escola do amanhã"
+            />
             <h2>Porque cada momento de <span>aprendizado</span> conta</h2>
             <p>
               Inscreva seu filho em nossa escola e veja-o florescer em um
