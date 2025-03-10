@@ -102,6 +102,91 @@
               </div>
             </div>
           </fieldset>
+
+          <fieldset class="address">
+            <legend>Endereço residencial</legend>
+
+            <div class="input-wrapper">
+              <label for="cep">CEP</label>
+              <input id="cep" name="cep" type="text" />
+            </div>
+
+            <div class="flex">
+              <div class="input-wrapper flex-2">
+                <label for="street">Rua</label>
+                <input
+                  id="street"
+                  name="street"
+                  type="text"
+                  disabled
+                  value="Rua das Flores"
+                />
+              </div>
+
+              <div class="input-wrapper flex-1">
+                <label for="number">Número</label>
+                <input id="number" name="number" type="number" />
+              </div>
+            </div>
+            <div class="flex">
+              <div class="input-wrapper flex-2">
+                <label for="city">Cidade</label>
+                <input
+                  id="city"
+                  name="city"
+                  type="text"
+                  disabled
+                  value="São Paulo"
+                />
+              </div>
+
+              <div class="input-wrapper flex-1">
+                <label for="state">Estado</label>
+                <input
+                  id="state"
+                  name="state"
+                  type="text"
+                  disabled
+                  value="SP"
+                />
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset class="guardian-information">
+            <legend>Informações do responsável</legend>
+            <div class="input-wrapper">
+              <label for="nameGuardian">Nome do responsável </label>
+              <input type="text" name="nameGuardian" id="nameGuardian" />
+              <small>Principal responsável legal e contato de emergência</small>
+            </div>
+
+            <div class="input-wrapper">
+              <label for="phone">Telefone</label>
+              <input
+                type="tel"
+                placeholder="(10) 9 8765-4321"
+                id="phone"
+                name="phone"
+              />
+            </div>
+
+            <div class="input-wrapper">
+              <label for="">Email</label>
+              <input type="email" id="email" name="email" required />
+              <div class="error">
+                <img
+                  src="assets/icons/alert-circle.svg"
+                  alt="Uma imagem de um circulo de alerta"
+                />
+                <span>Insira um e-mail válido</span>
+              </div>
+            </div>
+          </fieldset>
+
+          <filedset class="enroll-options">
+
+          </filedset>
         </div>
       </main>
 
