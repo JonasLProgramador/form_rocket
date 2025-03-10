@@ -6,9 +6,9 @@
 }
 
 :root{
-    --ff-poppins: 'Poppins', open-sans;
+    --ff-poppins: 'Poppins', sans-serif;
     --txt: 400 1rem/1.5 var(--ff-poppins);
-    --txt-sm:400 0.875rem/1.4 var(var(--ff-poppins));
+    --txt-sm:400 0.875rem/1.4 var(--ff-poppins);
     --txt-primary:#292524;
     --txt-secondary:#57534E;
     --txt-tertiary:#8F8881;
@@ -26,7 +26,7 @@
 
 body{
     overflow: hidden;
-    font: var(--text);
+    font: var(--txt);
     color: var(--txt-secondary);
 }
 
