@@ -18,8 +18,9 @@
       <main>
        <div class="main-container">
           <div class="back">
+            <div class="radio-image"></div>
             <img
-              src="./assets/icons/arrow-left-02.svg"
+              src="./assets/icons/arrow-left.svg"
               alt="Uma seta que aponta para atrás"
             />
             <span>Voltar</span>
@@ -176,6 +177,7 @@
               <label for="">Email</label>
               <input type="email" id="email" name="email" required />
               <div class="error">
+                <div class="radio-image"></div>
                 <img
                   src="assets/icons/alert-circle.svg"
                   alt="Uma imagem de um circulo de alerta"
@@ -187,43 +189,143 @@
 
           <fieldset class="enroll-options">
               <legend>Opções de matrícula</legend>
+               <div class="input-wrapper">
+                <label>Selecione o turno de estudo</label>
+                 <div class="radio-wrapper">
+                    <div class="radio-inner">
+                      <div class="radio-image"></div>
+                      <input 
+                      type="radio" 
+                      name="study-shift" 
+                      value="morning" 
+                      id="morning"
+                      >
+                      <div class="radio-image"></div>
+                      <img src="./assets/icons/sun-cloud.svg" 
+                      alt="Uma imagem de nuvens"
+                      >
+                      <label for="morning">Manhã</label>
+                    </div>
 
-              <div class="radio-wrapper">
-                  <div class="radio-inner">
-                    <div class="radio-image"></div>
-                    <input 
-                    type="radio" 
-                    name="study-shift" 
-                    value="morning" 
-                    id="morning"
-                    >
-                    <img src="./assets/icons/sun-cloud-02.svg" 
-                    alt="Uma imagem de nuvens"
-                    >
-                    <label for="morning">Manhã</label>
-                  </div>
-
-                  <div class="radio-inner">
-                    <div class="radio-image"></div>
-                    <input 
-                    type="radio" 
-                    name="study-shift" 
-                    value="evening" 
-                    id="evening"
-                    >
-                    <img src="./assets/icons/sun-02.svg" 
-                    alt="Uma imagem de sol"
-                    >
-                    <label for="evening">Tarde</label>
-                  </div>
+                    <div class="radio-inner">
+                      <div class="radio-image"></div>
+                      <input 
+                      type="radio" 
+                      name="study-shift" 
+                      value="evening" 
+                      id="evening"
+                      >
+                      <div class="radio-image"></div>
+                      <img src="./assets/icons/sun.svg" 
+                      alt="Uma imagem de sol"
+                      >
+                      <label for="evening">Tarde</label>
+                    </div>
                 </div>
+               </div>
+
+
+               <div class="input-wrapper">
+                  <label>
+                      Em qual esporte você gostaria de inscrever seu filho?
+                  </label>
+                  <div class="radio-wrapper">
+                      <div class="radio-inner">
+                        <div class="radio-image"></div>
+                        <img src="./assets/icons/football.svg" 
+                        alt=" uma imagem de uma bola"
+                        >
+                        <input type="radio" id="football" value="football" 
+                         name="sports"
+                        >
+                        <label for="football">Futebol</label>
+                      </div>
+
+                      <div class="radio-inner">
+                        <div class="radio-image"></div>
+                        <img src="./assets/icons/basketball.svg" 
+                        alt=" uma imagem de uma bola de basquete"
+                        >
+                        <input type="radio" id="basketball" value="basketball" 
+                         name="sports"
+                        >
+                        <label for="basketball">Basquete</label>
+                      </div>
+
+
+                      <div class="radio-inner">
+                        <div class="radio-image"></div>
+                        <img src="./assets/icons/swimming.svg" 
+                        alt=" uma imagem de uma pessoa nadando"
+                        >
+                        <input 
+                          type="radio" 
+                          id="swimming" 
+                          value="swimming" 
+                          name="sports"
+                        >
+                        <label for="swimming">Natação</label>
+                      </div>
+
+
+                      <div class="radio-inner">
+                        <div class="radio-image"></div>
+                        <img src="./assets/icons/yoga.svg" 
+                        alt=" uma imagem de uma pessoa meditando"
+                        >
+                        <input 
+                          type="radio" 
+                          id="yoga" 
+                          value="yoga" 
+                          name="sports"
+                        >
+                        <label for="yoga">Yoga</label>
+                      </div>
+
+
+                      <div class="radio-inner">
+                        <div class="radio-image"></div>
+                        <img src="./assets/icons/volleyball.svg" 
+                        alt=" uma imagem de uma bola de volley"
+                        >
+                        <input 
+                          type="radio" 
+                          id="volley" 
+                          value="volley" 
+                          name="sports"
+                        >
+                        <label for="volley">Voley</label>
+                      </div>
+
+                      <div class="radio-inner">
+                        <div class="radio-image"></div>
+                        <img src="./assets/icons/boxing-glove.svg" 
+                        alt=" uma imagem de uma luva de boxing"
+                        >
+                        <input 
+                          type="radio" 
+                          id="boxing" 
+                          value="boxing" 
+                          name="sports"
+                        >
+                        <label for="boxing">Boxe</label>
+                      </div>
+                      
+                    </div>
+
+                 
               </div>
+
+
+
+               </div>
           </fieldset>
         </main>
         
       <aside>
           <div class="aside-container">
               <header>
+                <div class="radio-image"></div>
                 <img
                   src="./assets/icons/logo.svg"
                   alt="Logo marca escrito escola do amanhã"
@@ -234,7 +336,8 @@
                   ambiente acolhedor, seguro e estimulante.
                 </p>
               </header>
-                <img
+              <div class="radio-image"></div>  
+              <img
                   src="./assets/icons/Illustration.png"
                   alt="Ilustração de uma professora com crianças ao lado 
                   prestando atenção"
